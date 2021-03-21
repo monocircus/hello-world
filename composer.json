@@ -1,0 +1,22 @@
+{
+    "name": "monocircus/hello-world",
+    "description": "My first GitHub project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "monocircus"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collection\\": "src/",
+            "CollectionTest\\": "tests/"
+        }
+    }
+}
